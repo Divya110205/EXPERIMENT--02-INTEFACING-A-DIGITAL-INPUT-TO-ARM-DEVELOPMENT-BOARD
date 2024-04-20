@@ -88,9 +88,6 @@ void push_button()
 	if(button_status == 0)
 	{
 		 HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_SET);
-		 HAL_Delay(1000);
-		 HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_RESET);
-		 HAL_Delay(1000);
 	}
  else
  {
